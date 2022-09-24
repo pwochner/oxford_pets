@@ -1,0 +1,6 @@
+sources:
+  oxford_pets:
+      description: Load the Oxford-IIIT Pet Dataset 
+      driver: intake_xarray.image.ImageSource
+      args:
+        urlpath: ["zip://*.jpg::https://zenodo.org/record/7108408/files/oxford_pets.zip?download=1"]
